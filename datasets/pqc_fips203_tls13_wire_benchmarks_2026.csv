@@ -1,0 +1,9 @@
+algorithm,standard,public_key_bytes,ciphertext_or_sig_bytes,tls_clienthello_bytes,tcp_segments_1460_mss
+X25519 (Classical ECDHE),IETF RFC 7748,32,32,342,1
+X25519MLKEM768 (Hybrid KEX),NIST FIPS 203 + X25519,1216,1120,1526,2
+SecP256r1MLKEM768 (Hybrid P-256),NIST FIPS 203 + P-256,1249,1153,1559,2
+ML-KEM-1024 (PQC Level 5),NIST FIPS 203,1568,1568,1878,2
+ECDSA P-256 (Classical Auth),FIPS 186-5,64,72,374,1
+ML-DSA-44 (PQC Signature Level 2),NIST FIPS 204,1312,2420,1622,2
+ML-DSA-65 (PQC Signature Level 3),NIST FIPS 204,1952,3309,2262,2
+SLH-DSA-SHA2-128f (Stateless Hash),NIST FIPS 205,32,17088,342,12
